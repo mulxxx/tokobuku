@@ -1,0 +1,26 @@
+RANCANGAN ANTARMUKA WEBSITE BOOKSTORE
+
+BookStore merupakan rancangan antarmuka website toko buku online. Rancangan ini diselaraskan dengan project BookStore versi backend sebagai referensi visual, tetapi implementasi untuk kebutuhan UTS dibatasi pada HTML dan CSS.
+
+Konsep desain:
+Antarmuka menggunakan warna hijau sebagai warna utama, latar krem muda, panel putih, serta tipografi DM Sans dan Manrope. Komponen visual mencakup navigasi, tombol, kartu buku, formulir, tabel, badge status, dan ringkasan transaksi. Layout memanfaatkan CSS Grid, Flexbox, dan media query agar responsif.
+
+Halaman pelanggan:
+1. Beranda: identitas BookStore, navigasi, hero section, dan buku terbaru.
+2. Katalog: kolom pencarian, filter kategori, dan daftar buku berbentuk card.
+3. Detail buku: cover, kategori, judul, penulis, harga, deskripsi, ISBN, penerbit, tahun, stok, dan input jumlah.
+4. Masuk: form email dan password.
+5. Registrasi: form nama lengkap, email, password, dan konfirmasi password.
+6. Keranjang: tabel buku, harga, jumlah, subtotal, aksi, dan total belanja.
+7. Checkout: informasi pengiriman, alamat, metode pembayaran, dan ringkasan pesanan.
+8. Riwayat pesanan: invoice, tanggal, total, metode pembayaran, dan status.
+
+Halaman admin:
+1. Dashboard: jumlah buku, pelanggan, transaksi, penjualan tercatat, dan transaksi terbaru.
+2. Kelola buku: form tambah buku dan tabel daftar buku.
+3. Kelola kategori: form penambahan kategori dan tabel kategori.
+4. Pengelolaan pengguna: tabel nama, email, role, dan tanggal daftar.
+5. Kelola transaksi: tabel invoice, pelanggan, tanggal, total, alamat, status, dan kontrol perubahan status.
+
+Batasan implementasi:
+Prototype ini bersifat statis. Form, tombol, pencarian, filter, dan data contoh belum diproses oleh backend maupun database. HTML digunakan untuk struktur halaman dan CSS untuk mengatur tampilan serta responsivitas.
